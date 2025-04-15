@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="450" fill="#f8fafc" />
+  
+  <!-- Wedding venue background with soft colors -->
+  <rect x="0" y="0" width="800" height="350" fill="#e0f2fe" />
+  
+  <!-- Decorative arch -->
+  <path d="M250 70 C400 -30 400 -30 550 70 L550 350 L250 350 Z" fill="#fdf2f8" />
+  <path d="M250 70 C400 -30 400 -30 550 70" fill="none" stroke="#f8fafc" stroke-width="8" />
+  
+  <!-- Floral decorations on arch -->
+  <g transform="translate(250, 70)">
+    <circle cx="0" cy="0" r="15" fill="#FB7185" opacity="0.8" />
+    <circle cx="8" cy="8" r="12" fill="#FDA4AF" opacity="0.8" />
+    <circle cx="-8" cy="8" r="10" fill="#FED7AA" opacity="0.8" />
+  </g>
+  
+  <g transform="translate(550, 70)">
+    <circle cx="0" cy="0" r="15" fill="#FB7185" opacity="0.8" />
+    <circle cx="-8" cy="8" r="12" fill="#FDA4AF" opacity="0.8" />
+    <circle cx="8" cy="8" r="10" fill="#FED7AA" opacity="0.8" />
+  </g>
+  
+  <g transform="translate(400, 40)">
+    <circle cx="0" cy="0" r="20" fill="#FB7185" opacity="0.8" />
+    <circle cx="10" cy="10" r="15" fill="#FDA4AF" opacity="0.8" />
+    <circle cx="-10" cy="10" r="15" fill="#FED7AA" opacity="0.8" />
+  </g>
+  
+  <!-- Floor -->
+  <rect x="0" y="350" width="800" height="100" fill="#f1f5f9" />
+  
+  <!-- Bride -->
+  <g transform="translate(330, 250)">
+    <!-- Wedding dress -->
+    <path d="M0 40 L-40 200 L40 200 Z" fill="white" />
+    <path d="M-10 40 L-30 100 L-35 200" fill="none" stroke="white" stroke-width="10" />
+    <path d="M10 40 L30 100 L35 200" fill="none" stroke="white" stroke-width="10" />
+    
+    <!-- Veil -->
+    <path d="M0 0 L-20 40 L20 40 Z" fill="white" opacity="0.7" />
+    <path d="M-10 0 L-30 60" fill="none" stroke="white" stroke-width="5" opacity="0.5" />
+    <path d="M10 0 L30 60" fill="none" stroke="white" stroke-width="5" opacity="0.5" />
+    
+    <!-- Upper body -->
+    <rect x="-20" y="40" width="40" height="50" rx="10" fill="white" />
+    
+    <!-- Arms -->
+    <path d="M-20 60 L-45 90" fill="none" stroke="#E4BEA6" stroke-width="8" stroke-linecap="round" />
+    <path d="M20 60 L45 90" fill="none" stroke="#E4BEA6" stroke-width="8" stroke-linecap="round" />
+    
+    <!-- Bouquet -->
+    <g transform="translate(-45, 90)">
+      <circle cx="0" cy="0" r="15" fill="#FB7185" opacity="0.8" />
+      <circle cx="8" cy="8" r="12" fill="#FDA4AF" opacity="0.8" />
+      <circle cx="-8" cy="8" r="10" fill="#FED7AA" opacity="0.8" />
+      <path d="M0 15 L10 35" fill="none" stroke="#84cc16" stroke-width="3" />
+      <path d="M0 15 L-5 35" fill="none" stroke="#84cc16" stroke-width="3" />
+      <path d="M0 15 L-10 25" fill="none" stroke="#84cc16" stroke-width="3" />
+    </g>
+    
+    <!-- Head -->
+    <circle cx="0" cy="0" r="20" fill="#E4BEA6" />
+    
+    <!-- Hair -->
+    <path d="M-20 0 Q-15 -20 0 -20 Q15 -20 20 0" fill="#3E2723" />
+    <path d="M-20 0 L-20 10 L-15 20 L-10 10 L-15 0 Z" fill="#3E2723" />
+    <path d="M20 0 L20 10 L15 20 L10 10 L15 0 Z" fill="#3E2723" />
+    
+    <!-- Face Features -->
+    <circle cx="-7" cy="0" r="2" fill="#3E2723" />
+    <circle cx="7" cy="0" r="2" fill="#3E2723" />
+    <path d="M-5 10 Q0 13 5 10" stroke="#A1887F" stroke-width="1.5" />
+  </g>
+  
+  <!-- Groom -->
+  <g transform="translate(470, 250)">
+    <!-- Suit -->
+    <rect x="-20" y="40" width="40" height="160" rx="5" fill="#1e293b" />
+    <rect x="-23" y="40" width="46" height="50" rx="5" fill="#1e293b" />
+    <rect x="-18" y="40" width="36" height="70" rx="2" fill="white" />
+    <path d="M0 40 L0 100" stroke="#1e293b" stroke-width="2" />
+    <rect x="-10" y="85" width="20" height="10" rx="2" fill="#1e293b" />
+    
+    <!-- Bow tie -->
+    <rect x="-10" y="45" width="20" height="5" rx="2" fill="#6A4C93" />
+    
+    <!-- Arms -->
+    <path d="M-23 60 L-40 80" fill="none" stroke="#E6C9A8" stroke-width="8" stroke-linecap="round" />
+    <path d="M23 60 L40 80" fill="none" stroke="#E6C9A8" stroke-width="8" stroke-linecap="round" />
+    
+    <!-- Head -->
+    <circle cx="0" cy="0" r="20" fill="#E6C9A8" />
+    
+    <!-- Hair -->
+    <path d="M-20 -5 Q-15 -20 0 -20 Q15 -20 20 -5" fill="#3E2723" />
+    <path d="M-20 -5 L-20 0 L-15 0 L-15 -5 Z" fill="#3E2723" />
+    <path d="M15 -5 L15 0 L20 0 L20 -5 Z" fill="#3E2723" />
+    
+    <!-- Face Features -->
+    <circle cx="-7" cy="0" r="2" fill="#3E2723" />
+    <circle cx="7" cy="0" r="2" fill="#3E2723" />
+    <path d="M-5 10 Q0 13 5 10" stroke="#A1887F" stroke-width="1.5" />
+  </g>
+  
+  <!-- Heart between the couple -->
+  <g transform="translate(400, 210)">
+    <path d="M0 20 Q-20 0 -10 -10 Q0 -20 10 -10 Q20 0 0 20 Z" fill="#FB7185" opacity="0.3" />
+  </g>
+  
+  <!-- Holding hands -->
+  <path d="M375 340 Q400 350 425 340" stroke="#E6C9A8" stroke-width="6" />
+  
+  <!-- MBTI badges -->
+  <g transform="translate(330, 220)">
+    <circle cx="0" cy="0" r="15" fill="#6A4C93" opacity="0.9" />
+    <text x="0" y="4" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="white">INFJ</text>
+  </g>
+  
+  <g transform="translate(470, 220)">
+    <circle cx="0" cy="0" r="15" fill="#FB7185" opacity="0.9" />
+    <text x="0" y="4" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="white">ENFP</text>
+  </g>
+  
+  <!-- Floor decorations -->
+  <g transform="translate(200, 350)">
+    <circle cx="0" cy="0" r="5" fill="#FDA4AF" opacity="0.8" />
+    <circle cx="20" cy="5" r="4" fill="#FB7185" opacity="0.8" />
+    <circle cx="40" cy="2" r="3" fill="#FED7AA" opacity="0.8" />
+  </g>
+  
+  <g transform="translate(600, 350)">
+    <circle cx="0" cy="0" r="5" fill="#FDA4AF" opacity="0.8" />
+    <circle cx="-20" cy="5" r="4" fill="#FB7185" opacity="0.8" />
+    <circle cx="-40" cy="2" r="3" fill="#FED7AA" opacity="0.8" />
+  </g>
+  
+  <!-- Names and status -->
+  <rect x="200" y="370" width="400" height="70" rx="10" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="400" y="400" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#334155">Emily & Michael</text>
+  <text x="400" y="425" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#64748b">Matched for 2 years, now married</text>
+</svg>

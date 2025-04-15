@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with soft gradient -->
+  <rect width="800" height="600" fill="url(#backgroundGradient)" />
+  
+  <!-- Decorative border - Indian wedding style -->
+  <rect x="20" y="20" width="760" height="560" rx="5" stroke="#D4AF37" stroke-width="3" fill="none" stroke-dasharray="15,5" />
+  <rect x="35" y="35" width="730" height="530" rx="5" stroke="#D4AF37" stroke-width="1" fill="none" />
+  
+  <!-- Bride -->
+  <g transform="translate(200, 80)">
+    <!-- Head and face -->
+    <ellipse cx="120" cy="130" rx="60" ry="75" fill="#C68642" />
+    
+    <!-- Hair with traditional styling -->
+    <path d="M120 55 C70 55 50 90 60 130 L60 190 C60 200 80 210 120 205 L180 190 C180 130 170 55 120 55Z" fill="#1A1110" />
+    
+    <!-- Face features -->
+    <ellipse cx="100" cy="125" rx="6" ry="8" fill="#3E2723" />
+    <ellipse cx="140" cy="125" rx="6" ry="8" fill="#3E2723" />
+    <path d="M110 145 Q120 150 130 145" stroke="#A1887F" stroke-width="2" stroke-linecap="round" />
+    
+    <!-- Bindi -->
+    <circle cx="120" cy="105" r="5" fill="#FF3D00" />
+    
+    <!-- Jewelry - Mang Tikka -->
+    <path d="M120 75 L120 100" stroke="#D4AF37" stroke-width="2" />
+    <circle cx="120" cy="75" r="8" fill="#D4AF37" />
+    <circle cx="120" cy="75" r="4" fill="#FF3D00" />
+    
+    <!-- Earrings -->
+    <path d="M60 125 L75 125" stroke="#D4AF37" stroke-width="2" />
+    <path d="M165 125 L180 125" stroke="#D4AF37" stroke-width="2" />
+    <circle cx="60" cy="125" r="5" fill="#D4AF37" />
+    <circle cx="180" cy="125" r="5" fill="#D4AF37" />
+    
+    <!-- Necklace -->
+    <path d="M90 190 Q120 200 150 190" stroke="#D4AF37" stroke-width="3" />
+    <circle cx="120" cy="200" r="5" fill="#D4AF37" />
+    <circle cx="105" cy="197" r="4" fill="#D4AF37" />
+    <circle cx="135" cy="197" r="4" fill="#D4AF37" />
+    
+    <!-- Saree - Red with gold border -->
+    <path d="M60 205 C60 280 60 350 90 400 L150 400 C180 350 180 280 180 205 Z" fill="#B71C1C" />
+    <path d="M60 205 L180 205" stroke="#D4AF37" stroke-width="5" />
+    <path d="M60 250 L180 250" stroke="#D4AF37" stroke-width="3" />
+    <path d="M90 400 L150 400" stroke="#D4AF37" stroke-width="5" />
+    
+    <!-- Saree pattern -->
+    <circle cx="100" cy="280" r="10" fill="none" stroke="#D4AF37" stroke-width="1" />
+    <circle cx="140" cy="280" r="10" fill="none" stroke="#D4AF37" stroke-width="1" />
+    <circle cx="120" cy="310" r="10" fill="none" stroke="#D4AF37" stroke-width="1" />
+    <circle cx="100" cy="340" r="10" fill="none" stroke="#D4AF37" stroke-width="1" />
+    <circle cx="140" cy="340" r="10" fill="none" stroke="#D4AF37" stroke-width="1" />
+    
+    <!-- INFJ Badge elegantly incorporated as jewelry -->
+    <circle cx="75" cy="225" r="15" fill="#D4AF37" />
+    <text x="75" y="230" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#B71C1C">INFJ</text>
+  </g>
+  
+  <!-- Groom -->
+  <g transform="translate(380, 80)">
+    <!-- Head and face -->
+    <ellipse cx="120" cy="130" rx="60" ry="75" fill="#C68642" />
+    
+    <!-- Hair and turban -->
+    <path d="M120 55 C80 35 60 75 60 100 L180 100 C180 75 160 35 120 55Z" fill="#1A1110" />
+    <path d="M60 100 C60 80 80 65 120 65 C160 65 180 80 180 100 Z" fill="#B71C1C" />
+    <circle cx="120" cy="75" r="10" fill="#D4AF37" />
+    
+    <!-- Face features -->
+    <ellipse cx="100" cy="130" rx="6" ry="8" fill="#3E2723" />
+    <ellipse cx="140" cy="130" rx="6" ry="8" fill="#3E2723" />
+    <path d="M110 150 Q120 155 130 150" stroke="#A1887F" stroke-width="2" stroke-linecap="round" />
+    
+    <!-- Mustache and beard -->
+    <path d="M95 160 Q120 170 145 160" stroke="#1A1110" stroke-width="3" />
+    <path d="M110 170 Q120 175 130 170" stroke="#1A1110" stroke-width="2" />
+    
+    <!-- Traditional Sherwani -->
+    <path d="M60 205 C60 280 60 350 90 400 L150 400 C180 350 180 280 180 205 Z" fill="#263238" />
+    <path d="M120 205 L120 400" stroke="#D4AF37" stroke-width="2" />
+    <path d="M60 225 L180 225" stroke="#D4AF37" stroke-width="3" />
+    <path d="M70 245 L170 245" stroke="#D4AF37" stroke-width="1" />
+    <path d="M70 265 L170 265" stroke="#D4AF37" stroke-width="1" />
+    
+    <!-- Sherwani pattern -->
+    <path d="M80 285 L110 285" stroke="#D4AF37" stroke-width="1" />
+    <path d="M130 285 L160 285" stroke="#D4AF37" stroke-width="1" />
+    <path d="M80 305 L110 305" stroke="#D4AF37" stroke-width="1" />
+    <path d="M130 305 L160 305" stroke="#D4AF37" stroke-width="1" />
+    <path d="M80 325 L110 325" stroke="#D4AF37" stroke-width="1" />
+    <path d="M130 325 L160 325" stroke="#D4AF37" stroke-width="1" />
+    
+    <!-- ENTP Badge elegantly incorporated as jewelry -->
+    <circle cx="165" cy="225" r="15" fill="#D4AF37" />
+    <text x="165" y="230" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#263238">ENTP</text>
+  </g>
+  
+  <!-- Connecting hands with henna -->
+  <path d="M350 300 Q380 320 410 300" stroke="#C68642" stroke-width="10" stroke-linecap="round" />
+  <path d="M350 300 Q380 320 410 300" stroke="#A95C10" stroke-width="1" stroke-linecap="round" stroke-dasharray="2,3" />
+  
+  <!-- Decorative elements - Mangal sutra connecting couple -->
+  <path d="M320 200 Q400 220 480 200" stroke="#D4AF37" stroke-width="2" stroke-dasharray="5,5" />
+  <circle cx="400" cy="215" r="5" fill="#D4AF37" />
+  <circle cx="380" cy="210" r="3" fill="#D4AF37" />
+  <circle cx="420" cy="210" r="3" fill="#D4AF37" />
+  
+  <!-- Background decorative elements - Mandala patterns -->
+  <circle cx="150" cy="100" r="30" fill="none" stroke="#D4AF37" stroke-width="1" opacity="0.5" />
+  <circle cx="150" cy="100" r="20" fill="none" stroke="#D4AF37" stroke-width="1" opacity="0.5" />
+  <circle cx="150" cy="100" r="10" fill="none" stroke="#D4AF37" stroke-width="1" opacity="0.5" />
+  
+  <circle cx="650" cy="100" r="30" fill="none" stroke="#D4AF37" stroke-width="1" opacity="0.5" />
+  <circle cx="650" cy="100" r="20" fill="none" stroke="#D4AF37" stroke-width="1" opacity="0.5" />
+  <circle cx="650" cy="100" r="10" fill="none" stroke="#D4AF37" stroke-width="1" opacity="0.5" />
+  
+  <circle cx="150" cy="500" r="30" fill="none" stroke="#D4AF37" stroke-width="1" opacity="0.5" />
+  <circle cx="150" cy="500" r="20" fill="none" stroke="#D4AF37" stroke-width="1" opacity="0.5" />
+  <circle cx="150" cy="500" r="10" fill="none" stroke="#D4AF37" stroke-width="1" opacity="0.5" />
+  
+  <circle cx="650" cy="500" r="30" fill="none" stroke="#D4AF37" stroke-width="1" opacity="0.5" />
+  <circle cx="650" cy="500" r="20" fill="none" stroke="#D4AF37" stroke-width="1" opacity="0.5" />
+  <circle cx="650" cy="500" r="10" fill="none" stroke="#D4AF37" stroke-width="1" opacity="0.5" />
+  
+  <!-- Flowers -->
+  <g transform="translate(100, 400)">
+    <circle cx="0" cy="0" r="15" fill="#F06292" />
+    <circle cx="10" cy="-5" r="15" fill="#F06292" />
+    <circle cx="5" cy="10" r="15" fill="#F06292" />
+    <circle cx="-8" cy="8" r="15" fill="#F06292" />
+    <circle cx="0" cy="0" r="5" fill="#FFEB3B" />
+  </g>
+  
+  <g transform="translate(700, 400)">
+    <circle cx="0" cy="0" r="15" fill="#F06292" />
+    <circle cx="10" cy="-5" r="15" fill="#F06292" />
+    <circle cx="5" cy="10" r="15" fill="#F06292" />
+    <circle cx="-8" cy="8" r="15" fill="#F06292" />
+    <circle cx="0" cy="0" r="5" fill="#FFEB3B" />
+  </g>
+  
+  <!-- Compatibility indicator -->
+  <g transform="translate(400, 500)">
+    <rect x="-120" y="-25" width="240" height="50" rx="25" fill="white" stroke="#D4AF37" stroke-width="2" />
+    <text x="0" y="5" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" alignment-baseline="middle" fill="#B71C1C">94% MATCH</text>
+    <text x="0" y="25" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" alignment-baseline="middle" fill="#263238">INFJ + ENTP = Perfect Match</text>
+  </g>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="backgroundGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF9C4;stop-opacity:0.5" />
+      <stop offset="100%" style="stop-color:#FFCCBC;stop-opacity:0.5" />
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f5f7fa" />
+  
+  <!-- Decorative elements -->
+  <circle cx="400" cy="300" r="200" fill="#4ECDC4" opacity="0.05" />
+  <circle cx="400" cy="300" r="150" fill="#6A4C93" opacity="0.05" />
+  <circle cx="400" cy="300" r="100" fill="#FF6B6B" opacity="0.05" />
+  
+  <!-- Network nodes -->
+  <circle cx="400" cy="300" r="30" fill="#4ECDC4" />
+  <text x="400" y="305" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">AI</text>
+  
+  <!-- Connection lines -->
+  <!-- MBTI nodes -->
+  <circle cx="250" cy="200" r="25" fill="#6A4C93" />
+  <text x="250" y="205" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">MBTI</text>
+  <line x1="400" y1="300" x2="250" y2="200" stroke="#6A4C93" stroke-width="3" opacity="0.6" />
+  
+  <circle cx="550" cy="200" r="25" fill="#6A4C93" />
+  <text x="550" y="205" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Stats</text>
+  <line x1="400" y1="300" x2="550" y2="200" stroke="#6A4C93" stroke-width="3" opacity="0.6" />
+  
+  <circle cx="200" cy="350" r="25" fill="#FF6B6B" />
+  <text x="200" y="355" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Values</text>
+  <line x1="400" y1="300" x2="200" y2="350" stroke="#FF6B6B" stroke-width="3" opacity="0.6" />
+  
+  <circle cx="600" cy="350" r="25" fill="#FF6B6B" />
+  <text x="600" y="355" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Goals</text>
+  <line x1="400" y1="300" x2="600" y2="350" stroke="#FF6B6B" stroke-width="3" opacity="0.6" />
+  
+  <circle cx="300" cy="450" r="25" fill="#4ECDC4" />
+  <text x="300" y="455" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Match</text>
+  <line x1="400" y1="300" x2="300" y2="450" stroke="#4ECDC4" stroke-width="3" opacity="0.6" />
+  
+  <circle cx="500" cy="450" r="25" fill="#4ECDC4" />
+  <text x="500" y="455" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Adapt</text>
+  <line x1="400" y1="300" x2="500" y2="450" stroke="#4ECDC4" stroke-width="3" opacity="0.6" />
+  
+  <!-- Small brain icon -->
+  <g transform="translate(375, 150) scale(0.1)">
+    <path d="M250 100 Q400 0 550 100 Q700 200 550 300 Q400 400 250 300 Q100 200 250 100Z" fill="#6A4C93" opacity="0.8" />
+    <path d="M250 150 Q375 75 500 150 Q625 225 500 300 Q375 375 250 300 Q125 225 250 150Z" fill="#4ECDC4" opacity="0.8" />
+    <path d="M300 200 Q400 150 500 200 Q600 250 500 300 Q400 350 300 300 Q200 250 300 200Z" fill="#FF6B6B" opacity="0.8" />
+  </g>
+  
+  <!-- Data points and connections -->
+  <circle cx="220" cy="250" r="4" fill="#6A4C93" />
+  <circle cx="280" cy="240" r="4" fill="#6A4C93" />
+  <circle cx="240" cy="270" r="4" fill="#6A4C93" />
+  <line x1="240" y1="270" x2="220" y2="250" stroke="#6A4C93" stroke-width="1" opacity="0.6" />
+  <line x1="280" y1="240" x2="220" y2="250" stroke="#6A4C93" stroke-width="1" opacity="0.6" />
+  
+  <circle cx="520" cy="250" r="4" fill="#6A4C93" />
+  <circle cx="580" cy="240" r="4" fill="#6A4C93" />
+  <circle cx="540" cy="270" r="4" fill="#6A4C93" />
+  <line x1="540" y1="270" x2="520" y2="250" stroke="#6A4C93" stroke-width="1" opacity="0.6" />
+  <line x1="580" y1="240" x2="520" y2="250" stroke="#6A4C93" stroke-width="1" opacity="0.6" />
+  
+  <!-- Legend -->
+  <rect x="625" y="500" width="150" height="80" rx="10" fill="white" opacity="0.8" stroke="#d1d5db" stroke-width="1" />
+  
+  <circle cx="645" y="520" r="7" fill="#6A4C93" />
+  <text x="660" y="525" font-family="Arial, sans-serif" font-size="14" fill="#4b5563">Personality</text>
+  
+  <circle cx="645" y="545" r="7" fill="#4ECDC4" />
+  <text x="660" y="550" font-family="Arial, sans-serif" font-size="14" fill="#4b5563">AI Processing</text>
+  
+  <circle cx="645" y="570" r="7" fill="#FF6B6B" />
+  <text x="660" y="575" font-family="Arial, sans-serif" font-size="14" fill="#4b5563">Preferences</text>
+  
+  <!-- Title -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#4b5563">AI-Powered Matching Algorithm</text>
+  <text x="400" y="80" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#6b7280">Finding your perfect match through data-driven compatibility</text>
+</svg>

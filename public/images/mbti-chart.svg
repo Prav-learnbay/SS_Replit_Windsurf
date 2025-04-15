@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f5f7fa" />
+  
+  <!-- Grid lines -->
+  <line x1="400" y1="50" x2="400" y2="550" stroke="#d1d5db" stroke-width="2" />
+  <line x1="100" y1="300" x2="700" y2="300" stroke="#d1d5db" stroke-width="2" />
+  
+  <!-- Labels for axes -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#4b5563">MBTI Personality Dimensions</text>
+  
+  <text x="200" y="320" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#6A4C93">Introversion (I)</text>
+  <text x="600" y="320" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#4ECDC4">Extraversion (E)</text>
+  
+  <text x="420" y="150" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#FF6B6B">Intuition (N)</text>
+  <text x="420" y="450" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#FFD166">Sensing (S)</text>
+  
+  <!-- MBTI Type Bubbles -->
+  <!-- Analysts -->
+  <circle cx="530" cy="170" r="40" fill="#6A4C93" opacity="0.7" />
+  <text x="530" y="170" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">ENTJ</text>
+  
+  <circle cx="450" cy="170" r="40" fill="#6A4C93" opacity="0.7" />
+  <text x="450" y="170" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">ENTP</text>
+  
+  <circle cx="270" cy="170" r="40" fill="#6A4C93" opacity="0.7" />
+  <text x="270" y="170" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">INTJ</text>
+  
+  <circle cx="350" cy="170" r="40" fill="#6A4C93" opacity="0.7" />
+  <text x="350" y="170" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">INTP</text>
+  
+  <!-- Diplomats -->
+  <circle cx="530" cy="240" r="40" fill="#4ECDC4" opacity="0.7" />
+  <text x="530" y="240" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">ENFJ</text>
+  
+  <circle cx="450" cy="240" r="40" fill="#4ECDC4" opacity="0.7" />
+  <text x="450" y="240" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">ENFP</text>
+  
+  <circle cx="270" cy="240" r="40" fill="#4ECDC4" opacity="0.7" />
+  <text x="270" y="240" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">INFJ</text>
+  
+  <circle cx="350" cy="240" r="40" fill="#4ECDC4" opacity="0.7" />
+  <text x="350" y="240" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">INFP</text>
+  
+  <!-- Sentinels -->
+  <circle cx="530" cy="360" r="40" fill="#FF6B6B" opacity="0.7" />
+  <text x="530" y="360" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">ESTJ</text>
+  
+  <circle cx="450" cy="360" r="40" fill="#FF6B6B" opacity="0.7" />
+  <text x="450" y="360" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">ESFJ</text>
+  
+  <circle cx="270" cy="360" r="40" fill="#FF6B6B" opacity="0.7" />
+  <text x="270" y="360" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">ISTJ</text>
+  
+  <circle cx="350" cy="360" r="40" fill="#FF6B6B" opacity="0.7" />
+  <text x="350" y="360" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">ISFJ</text>
+  
+  <!-- Explorers -->
+  <circle cx="530" cy="430" r="40" fill="#FFD166" opacity="0.7" />
+  <text x="530" y="430" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">ESTP</text>
+  
+  <circle cx="450" cy="430" r="40" fill="#FFD166" opacity="0.7" />
+  <text x="450" y="430" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">ESFP</text>
+  
+  <circle cx="270" cy="430" r="40" fill="#FFD166" opacity="0.7" />
+  <text x="270" y="430" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">ISTP</text>
+  
+  <circle cx="350" cy="430" r="40" fill="#FFD166" opacity="0.7" />
+  <text x="350" y="430" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">ISFP</text>
+  
+  <!-- Legend -->
+  <rect x="600" y="500" width="20" height="20" fill="#6A4C93" opacity="0.7" />
+  <text x="630" y="515" font-family="Arial, sans-serif" font-size="14" fill="#4b5563">Analysts</text>
+  
+  <rect x="600" y="525" width="20" height="20" fill="#4ECDC4" opacity="0.7" />
+  <text x="630" y="540" font-family="Arial, sans-serif" font-size="14" fill="#4b5563">Diplomats</text>
+  
+  <rect x="600" y="550" width="20" height="20" fill="#FF6B6B" opacity="0.7" />
+  <text x="630" y="565" font-family="Arial, sans-serif" font-size="14" fill="#4b5563">Sentinels</text>
+  
+  <rect x="600" y="575" width="20" height="20" fill="#FFD166" opacity="0.7" />
+  <text x="630" y="590" font-family="Arial, sans-serif" font-size="14" fill="#4b5563">Explorers</text>
+</svg>

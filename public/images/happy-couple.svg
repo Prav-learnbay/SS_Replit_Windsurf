@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <rect width="800" height="600" fill="url(#grad1)" />
+  
+  <!-- Female silhouette -->
+  <g transform="translate(250, 150)">
+    <!-- Head and face -->
+    <ellipse cx="70" cy="80" rx="60" ry="70" fill="#FF9B85" />
+    <path d="M70 20 Q100 30 100 70 Q100 100 70 110 Q40 100 40 70 Q40 30 70 20Z" fill="#FFB7A7" />
+    
+    <!-- Hair -->
+    <path d="M70 20 Q40 10 30 40 Q20 70 25 100 Q30 110 40 100 Q40 30 70 20Z" fill="#6A4C93" />
+    <path d="M70 20 Q100 10 110 40 Q120 70 115 100 Q110 110 100 100 Q100 30 70 20Z" fill="#6A4C93" />
+    
+    <!-- Eyes -->
+    <ellipse cx="55" cy="70" rx="8" ry="6" fill="#433D3A" />
+    <ellipse cx="85" cy="70" rx="8" ry="6" fill="#433D3A" />
+    
+    <!-- Smile -->
+    <path d="M60 90 Q70 100 80 90" stroke="#433D3A" stroke-width="2" fill="none" />
+    
+    <!-- MBTI label -->
+    <rect x="90" y="30" width="50" height="25" rx="12.5" fill="#FF6B6B" />
+    <text x="115" y="47" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">INFJ</text>
+    
+    <!-- Body outline -->
+    <path d="M30 150 Q70 130 110 150 L110 250 Q90 270 50 270 Q30 250 30 150Z" fill="#FFB7A7" />
+    
+    <!-- Clothing -->
+    <path d="M30 170 Q70 155 110 170 L110 250 Q90 270 50 270 Q30 250 30 170Z" fill="#FF6B6B" />
+  </g>
+  
+  <!-- Male silhouette -->
+  <g transform="translate(400, 150)">
+    <!-- Head and face -->
+    <ellipse cx="70" cy="80" rx="60" ry="70" fill="#FFC8A2" />
+    <path d="M70 20 Q100 30 100 70 Q100 100 70 110 Q40 100 40 70 Q40 30 70 20Z" fill="#FFD7BC" />
+    
+    <!-- Hair -->
+    <path d="M40 40 Q40 20 70 10 Q100 20 100 40 L100 50 L40 50 Z" fill="#4E3620" />
+    
+    <!-- Eyes -->
+    <ellipse cx="55" cy="70" rx="8" ry="6" fill="#433D3A" />
+    <ellipse cx="85" cy="70" rx="8" ry="6" fill="#433D3A" />
+    
+    <!-- Smile -->
+    <path d="M60 90 Q70 100 80 90" stroke="#433D3A" stroke-width="2" fill="none" />
+    
+    <!-- MBTI label -->
+    <rect x="90" y="30" width="50" height="25" rx="12.5" fill="#4ECDC4" />
+    <text x="115" y="47" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">ENTP</text>
+    
+    <!-- Body outline -->
+    <path d="M30 150 Q70 130 110 150 L110 250 Q90 270 50 270 Q30 250 30 150Z" fill="#FFD7BC" />
+    
+    <!-- Clothing -->
+    <path d="M30 170 Q70 155 110 170 L110 250 Q90 270 50 270 Q30 250 30 170Z" fill="#4ECDC4" />
+  </g>
+  
+  <!-- Hearts connection -->
+  <g transform="translate(355, 180)">
+    <path d="M40 20 Q20 0 10 20 Q0 40 20 60 L40 80 L60 60 Q80 40 70 20 Q60 0 40 20Z" fill="#FF6B6B" opacity="0.7" />
+    <path d="M40 20 Q60 0 70 20 Q80 40 60 60 L40 80 L20 60 Q0 40 10 20 Q20 0 40 20Z" fill="#4ECDC4" opacity="0.7" />
+  </g>
+  
+  <!-- MBTI compatibility indicators -->
+  <g transform="translate(100, 400)">
+    <rect x="0" y="0" width="600" height="80" rx="10" fill="white" opacity="0.9" />
+    
+    <line x1="150" y1="20" x2="450" y2="20" stroke="#d1d5db" stroke-width="1" />
+    <line x1="150" y1="60" x2="450" y2="60" stroke="#d1d5db" stroke-width="1" />
+    
+    <circle cx="200" cy="40" r="15" fill="#6A4C93" opacity="0.7" />
+    <text x="200" y="45" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">N</text>
+    
+    <circle cx="250" cy="40" r="15" fill="#FF6B6B" opacity="0.7" />
+    <text x="250" y="45" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">F</text>
+    
+    <text x="300" y="45" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#4b5563">+</text>
+    
+    <circle cx="350" cy="40" r="15" fill="#4ECDC4" opacity="0.7" />
+    <text x="350" y="45" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">N</text>
+    
+    <circle cx="400" cy="40" r="15" fill="#FFD166" opacity="0.7" />
+    <text x="400" y="45" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">T</text>
+    
+    <text x="500" y="45" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#FF6B6B">= 94% Match</text>
+  </g>
+  
+  <!-- Background elements -->
+  <circle cx="150" cy="150" r="50" fill="#4ECDC4" opacity="0.1" />
+  <circle cx="650" cy="150" r="50" fill="#FF6B6B" opacity="0.1" />
+  <circle cx="200" cy="450" r="70" fill="#6A4C93" opacity="0.1" />
+  <circle cx="600" cy="450" r="70" fill="#4ECDC4" opacity="0.1" />
+  
+  <!-- Decorative elements -->
+  <circle cx="100" cy="100" r="5" fill="#FF6B6B" opacity="0.5" />
+  <circle cx="700" cy="100" r="5" fill="#4ECDC4" opacity="0.5" />
+  <circle cx="100" cy="500" r="5" fill="#FFD166" opacity="0.5" />
+  <circle cx="700" cy="500" r="5" fill="#6A4C93" opacity="0.5" />
+  
+  <!-- Gradient definitions -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5f7fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e5e9f0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

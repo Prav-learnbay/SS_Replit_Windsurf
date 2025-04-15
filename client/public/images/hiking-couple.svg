@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with mountains -->
+  <rect width="800" height="450" fill="#f8fafc" />
+  
+  <!-- Sky gradient -->
+  <rect width="800" height="200" fill="#e0f2fe" />
+  
+  <!-- Mountains -->
+  <path d="M0 200 L200 100 L400 180 L600 80 L800 150 L800 200 Z" fill="#4ECDC4" opacity="0.2" />
+  <path d="M0 200 L100 150 L250 190 L350 120 L500 170 L600 120 L800 180 L800 200 Z" fill="#4ECDC4" opacity="0.4" />
+  
+  <!-- Hiking trail -->
+  <path d="M250 200 Q400 220 550 200 Q600 300 550 350 Q450 370 400 350 Q350 330 250 350 Q200 300 250 200 Z" fill="#d4a76a" opacity="0.3" />
+  
+  <!-- Trees -->
+  <g transform="translate(180, 170)">
+    <rect x="-5" y="20" width="10" height="30" fill="#7c5a2c" />
+    <path d="M0 0 L-20 20 L-15 20 L-30 40 L30 40 L15 20 L20 20 Z" fill="#4ECDC4" opacity="0.7" />
+  </g>
+  
+  <g transform="translate(620, 150)">
+    <rect x="-5" y="20" width="10" height="30" fill="#7c5a2c" />
+    <path d="M0 0 L-20 20 L-15 20 L-30 40 L30 40 L15 20 L20 20 Z" fill="#4ECDC4" opacity="0.7" />
+  </g>
+  
+  <!-- Woman hiker -->
+  <g transform="translate(330, 250)">
+    <!-- Body -->
+    <path d="M0 30 L-20 100 L20 100 Z" fill="#FF6B6B" opacity="0.9" />
+    
+    <!-- Backpack -->
+    <rect x="-15" y="40" width="30" height="40" rx="5" fill="#FFD166" />
+    
+    <!-- Head -->
+    <circle cx="0" cy="15" r="20" fill="#E4BEA6" />
+    
+    <!-- Hair -->
+    <path d="M-20 15 Q-15 -5 0 -5 Q15 -5 20 15 Q15 35 0 35 Q-15 35 -20 15 Z" fill="#3E2723" />
+    
+    <!-- Cap -->
+    <path d="M-15 5 Q-10 -8 0 -8 Q10 -8 15 5" fill="none" stroke="#FFD166" stroke-width="3" />
+    <path d="M-15 5 L15 5" stroke="#FFD166" stroke-width="3" />
+    
+    <!-- Face Features -->
+    <circle cx="-7" cy="15" r="2" fill="#3E2723" />
+    <circle cx="7" cy="15" r="2" fill="#3E2723" />
+    <path d="M-5 25 Q0 28 5 25" stroke="#A1887F" stroke-width="1.5" />
+    
+    <!-- Hiking poles -->
+    <line x1="-25" y1="80" x2="-15" y2="40" stroke="#64748b" stroke-width="2" />
+  </g>
+  
+  <!-- Man hiker -->
+  <g transform="translate(470, 250)">
+    <!-- Body -->
+    <path d="M0 30 L-20 100 L20 100 Z" fill="#6A4C93" opacity="0.9" />
+    
+    <!-- Backpack -->
+    <rect x="-15" y="40" width="30" height="40" rx="5" fill="#4ECDC4" />
+    
+    <!-- Head -->
+    <circle cx="0" cy="15" r="20" fill="#E6C9A8" />
+    
+    <!-- Hair -->
+    <path d="M-20 5 Q-15 -5 0 -5 Q15 -5 20 5" fill="#3E2723" />
+    <path d="M-20 5 L-20 15 L-15 15 L-15 5 Z" fill="#3E2723" />
+    <path d="M15 5 L15 15 L20 15 L20 5 Z" fill="#3E2723" />
+    
+    <!-- Face Features -->
+    <circle cx="-7" cy="15" r="2" fill="#3E2723" />
+    <circle cx="7" cy="15" r="2" fill="#3E2723" />
+    <path d="M-5 25 Q0 28 5 25" stroke="#A1887F" stroke-width="1.5" />
+    
+    <!-- Hiking poles -->
+    <line x1="25" y1="80" x2="15" y2="40" stroke="#64748b" stroke-width="2" />
+  </g>
+  
+  <!-- Connecting rope -->
+  <path d="M370 270 Q400 260 430 270" stroke="#64748b" stroke-width="2" stroke-dasharray="5,3" />
+  
+  <!-- MBTI badges -->
+  <g transform="translate(330, 220)">
+    <circle cx="0" cy="0" r="15" fill="#4ECDC4" opacity="0.9" />
+    <text x="0" y="4" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="white">INTJ</text>
+  </g>
+  
+  <g transform="translate(470, 220)">
+    <circle cx="0" cy="0" r="15" fill="#FFD166" opacity="0.9" />
+    <text x="0" y="4" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="white">ESFP</text>
+  </g>
+  
+  <!-- Compass -->
+  <g transform="translate(400, 330)">
+    <circle cx="0" cy="0" r="20" fill="white" stroke="#64748b" stroke-width="2"/>
+    <circle cx="0" cy="0" r="15" fill="#f8fafc" stroke="#64748b" stroke-width="1"/>
+    <path d="M0 -15 L0 -5" stroke="#64748b" stroke-width="2"/>
+    <path d="M0 5 L0 15" stroke="#64748b" stroke-width="2"/>
+    <path d="M-15 0 L-5 0" stroke="#64748b" stroke-width="2"/>
+    <path d="M5 0 L15 0" stroke="#64748b" stroke-width="2"/>
+    <path d="M0 0 L-5 -10" stroke="#FF6B6B" stroke-width="2"/>
+    <path d="M0 0 L5 10" stroke="#6A4C93" stroke-width="2"/>
+  </g>
+  
+  <!-- Names and status -->
+  <rect x="200" y="350" width="400" height="70" rx="10" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="400" y="380" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#334155">Aisha & James</text>
+  <text x="400" y="405" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#64748b">Matched for 1 year, engaged</text>
+</svg>

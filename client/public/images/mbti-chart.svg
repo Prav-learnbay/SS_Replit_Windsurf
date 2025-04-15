@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8fafc" />
+  
+  <!-- Title -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#334155">MBTI Compatibility Chart</text>
+  
+  <!-- Main Grid - 4x4 for 16 personality types -->
+  <g transform="translate(100, 100)">
+    <!-- Grid lines -->
+    <rect x="0" y="0" width="600" height="400" stroke="#cbd5e1" stroke-width="2" fill="none" />
+    <line x1="0" y1="100" x2="600" y2="100" stroke="#cbd5e1" stroke-width="2" />
+    <line x1="0" y1="200" x2="600" y2="200" stroke="#cbd5e1" stroke-width="2" />
+    <line x1="0" y1="300" x2="600" y2="300" stroke="#cbd5e1" stroke-width="2" />
+    <line x1="150" y1="0" x2="150" y2="400" stroke="#cbd5e1" stroke-width="2" />
+    <line x1="300" y1="0" x2="300" y2="400" stroke="#cbd5e1" stroke-width="2" />
+    <line x1="450" y1="0" x2="450" y2="400" stroke="#cbd5e1" stroke-width="2" />
+    
+    <!-- Personality Types Labels -->
+    <!-- Analysts: NT -->
+    <rect x="0" y="0" width="150" height="100" fill="#6A4C93" fill-opacity="0.8" />
+    <text x="75" y="50" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">INTJ</text>
+    
+    <rect x="150" y="0" width="150" height="100" fill="#6A4C93" fill-opacity="0.7" />
+    <text x="225" y="50" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">INTP</text>
+    
+    <rect x="300" y="0" width="150" height="100" fill="#6A4C93" fill-opacity="0.6" />
+    <text x="375" y="50" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">ENTJ</text>
+    
+    <rect x="450" y="0" width="150" height="100" fill="#6A4C93" fill-opacity="0.5" />
+    <text x="525" y="50" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">ENTP</text>
+    
+    <!-- Diplomats: NF -->
+    <rect x="0" y="100" width="150" height="100" fill="#FF6B6B" fill-opacity="0.8" />
+    <text x="75" y="150" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">INFJ</text>
+    
+    <rect x="150" y="100" width="150" height="100" fill="#FF6B6B" fill-opacity="0.7" />
+    <text x="225" y="150" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">INFP</text>
+    
+    <rect x="300" y="100" width="150" height="100" fill="#FF6B6B" fill-opacity="0.6" />
+    <text x="375" y="150" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">ENFJ</text>
+    
+    <rect x="450" y="100" width="150" height="100" fill="#FF6B6B" fill-opacity="0.5" />
+    <text x="525" y="150" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">ENFP</text>
+    
+    <!-- Sentinels: SJ -->
+    <rect x="0" y="200" width="150" height="100" fill="#4ECDC4" fill-opacity="0.8" />
+    <text x="75" y="250" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">ISTJ</text>
+    
+    <rect x="150" y="200" width="150" height="100" fill="#4ECDC4" fill-opacity="0.7" />
+    <text x="225" y="250" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">ISFJ</text>
+    
+    <rect x="300" y="200" width="150" height="100" fill="#4ECDC4" fill-opacity="0.6" />
+    <text x="375" y="250" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">ESTJ</text>
+    
+    <rect x="450" y="200" width="150" height="100" fill="#4ECDC4" fill-opacity="0.5" />
+    <text x="525" y="250" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">ESFJ</text>
+    
+    <!-- Explorers: SP -->
+    <rect x="0" y="300" width="150" height="100" fill="#FFD166" fill-opacity="0.8" />
+    <text x="75" y="350" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">ISTP</text>
+    
+    <rect x="150" y="300" width="150" height="100" fill="#FFD166" fill-opacity="0.7" />
+    <text x="225" y="350" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">ISFP</text>
+    
+    <rect x="300" y="300" width="150" height="100" fill="#FFD166" fill-opacity="0.6" />
+    <text x="375" y="350" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">ESTP</text>
+    
+    <rect x="450" y="300" width="150" height="100" fill="#FFD166" fill-opacity="0.5" />
+    <text x="525" y="350" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">ESFP</text>
+  </g>
+  
+  <!-- Connection Lines for Best Matches contained within chart -->
+  <g transform="translate(100, 100)">
+    <!-- INFJ + ENTP -->
+    <path d="M75 150 C150 120 450 80 525 50" stroke="#FF6B6B" stroke-width="3" fill="none" opacity="0.8" />
+    <circle cx="75" cy="150" r="6" fill="#FF6B6B" />
+    <circle cx="525" cy="50" r="6" fill="#FF6B6B" />
+    
+    <!-- INTJ + ENFP -->
+    <path d="M75 50 C200 70 400 130 525 150" stroke="#6A4C93" stroke-width="3" fill="none" opacity="0.8" />
+    <circle cx="75" cy="50" r="6" fill="#6A4C93" />
+    <circle cx="525" cy="150" r="6" fill="#6A4C93" />
+    
+    <!-- ENTJ + INFP -->
+    <path d="M375 50 C350 80 280 100 225 150" stroke="#4ECDC4" stroke-width="3" fill="none" opacity="0.8" />
+    <circle cx="375" cy="50" r="6" fill="#4ECDC4" />
+    <circle cx="225" cy="150" r="6" fill="#4ECDC4" />
+    
+    <!-- ENFJ + ISTP -->
+    <path d="M375 150 C350 200 120 300 75 350" stroke="#FFD166" stroke-width="3" fill="none" opacity="0.8" />
+    <circle cx="375" cy="150" r="6" fill="#FFD166" />
+    <circle cx="75" cy="350" r="6" fill="#FFD166" />
+  </g>
+  
+  <!-- Legend -->
+  <rect x="155" y="520" width="20" height="20" fill="#6A4C93" fill-opacity="0.7" />
+  <text x="185" y="535" font-family="Arial, sans-serif" font-size="14" fill="#334155">Analysts (NT)</text>
+  
+  <rect x="295" y="520" width="20" height="20" fill="#FF6B6B" fill-opacity="0.7" />
+  <text x="325" y="535" font-family="Arial, sans-serif" font-size="14" fill="#334155">Diplomats (NF)</text>
+  
+  <rect x="435" y="520" width="20" height="20" fill="#4ECDC4" fill-opacity="0.7" />
+  <text x="465" y="535" font-family="Arial, sans-serif" font-size="14" fill="#334155">Sentinels (SJ)</text>
+  
+  <rect x="575" y="520" width="20" height="20" fill="#FFD166" fill-opacity="0.7" />
+  <text x="605" y="535" font-family="Arial, sans-serif" font-size="14" fill="#334155">Explorers (SP)</text>
+  
+  <!-- Explanation -->
+  <text x="400" y="575" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#334155">Lines indicate ideal personality matches for deep compatibility</text>
+</svg>
