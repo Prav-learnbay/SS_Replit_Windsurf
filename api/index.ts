@@ -1,8 +1,12 @@
-import express, { type Request, Response, NextFunction } from "express";
-import type { VercelRequest, VercelResponse } from '@vercel/node';
+import express from "express";
 import { registerRoutes } from "../server/routes";
 
 const app = express();
+registerRoutes(app);
+
+export default (req, res) => {
+  app(req, res);
+};
 
 // Enable CORS for all routes
 app.use((req, res, next) => {
