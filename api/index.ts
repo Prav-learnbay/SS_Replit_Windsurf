@@ -1,4 +1,5 @@
 import express, { type Request, Response, NextFunction } from "express";
+import type { VercelRequest, VercelResponse } from '@vercel/node';
 import { registerRoutes } from "../server/routes";
 
 const app = express();
@@ -58,5 +59,7 @@ app.use((err: any, _req: Request, res: Response, _next: NextFunction) => {
   res.status(status).json({ message });
 });
 
-// Export the app as the default handler for Vercel
-export default app;
+// Handler for Vercel
+export default (req: VercelRequest, res: VercelResponse) => {
+  app(req, res);
+};
